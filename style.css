@@ -34,13 +34,7 @@ header h1{
     padding-top: 25rem;
     padding-bottom: 25rem;
      background: linear-gradient(to right, #335681, #432575); 
-    /* background: linear-gradient(to right, #66BB6A, #26A69A); */
-    /* background: linear-gradient(to right, #FFA07A, #FF66B2); */
-    /* background: linear-gradient(to right, #004d40, #000000); */
-
-
-    /* background: linear-gradient(to right, #3498db, #2c3e50); */
-    /* background-color: #6A5ACD; */
+    
 
     color: white;
 }  
@@ -242,7 +236,7 @@ header h1{
     background-color: #0056b3;
 }
 
-/* Responsive Design */
+
 
 
 #skills{ 

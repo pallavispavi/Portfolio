@@ -63,13 +63,13 @@ document.addEventListener('DOMContentLoaded', function() {
     var contactForm = document.getElementById('contactForm');
 
     contactForm.addEventListener('submit', function(event) {
-        // Prevent the default form submission
+        
         event.preventDefault();
 
-        // Get form data
+        
         var formData = new FormData(contactForm);
 
-        // Reset the form
+        
         
    
     var formData = new FormData(contactForm);
@@ -79,12 +79,12 @@ document.addEventListener('DOMContentLoaded', function() {
         body: formData,
         headers: {
             'Accept': 'application/json'
-            // Add any additional headers if needed
+            
         }
     })
     .then(response => response.json())
     .then(data => {
-        // Handle the response data if needed
+        
         contactForm.reset();
         console.log('Formspree response:', data);
     })
