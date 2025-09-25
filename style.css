@@ -141,6 +141,29 @@ header h1{
     width:100%;
     
 } 
+
+#experience h2,h3,p{
+    color: #001f3f; /* Navy Blue */
+    font-family: 'Merriweather', serif;
+}
+
+#experience ul{
+    text-align: justify;
+    font-family: Muli;
+}
+
+#experience{ 
+    position: relative;
+    margin-top:1px;
+    margin-bottom: 40px;
+    background-color: #f2f2f2;
+    color: black;
+    padding: 3rem; 
+    text-align: center;
+    box-sizing: border-box;
+    width:100%;
+    
+} 
 #project-grid{
     display: grid;
     grid-template-columns: auto auto auto; 
@@ -304,9 +327,13 @@ header h1{
     gap: 10px; 
 } 
 
+footer p{
+    color:#81cdfb;
+}
 .social-linkss,
 #details {
     text-align: center;
+    color:#81cdfb;
      
 }
 
@@ -328,6 +355,7 @@ header h1{
 } 
 #details p{
        margin-bottom: 0;
+       color:#81cdfb;
 } 
 
 
